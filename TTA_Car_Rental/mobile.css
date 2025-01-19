@@ -1,0 +1,74 @@
+@media (max-width: 600px) {   
+    .header-content-3{
+        display: none;
+    }
+    .home-container p{
+        font-size: 20px;
+    }
+    .form-container{
+        align-items: center;
+    }
+    .form{
+        width: 70%;
+    }
+    .brand-content, .body-type-content{
+        width: 25%;
+    }
+    .brand-content svg, .body-type-content svg{
+        width: 89%;
+        padding-left: 5px;
+    }
+    .collection-section-header{
+        width: 65%;
+    }
+    .collection-section-header ul li{
+        display: block;
+        margin: 5px 0px;
+    }
+    .collection-grid{
+        grid-template-columns: auto;
+    }
+    .service-grid{
+        grid-template-columns: auto;
+    }
+    .service-section-header{
+        width: 65%;
+    }
+    .how-container, .footer-container, .download-section-container .download-button-container, .download-section-content, .form{
+        flex-direction: column;
+    }
+    .how-container .car-img{
+        width: 100%;
+        height: auto;
+    }
+    .car-img img{
+        width: 70%;
+        height: auto;
+    }
+    .how-content-steps{
+        position: relative;
+        width: 100%;
+    }
+    .comment-section-buttons button{
+        height: 30px;
+        width: 30px;
+    }
+    .comment-section-header h1{
+        font-size: 20px;
+    }
+    .download-section-container .download-content{
+        width: 100%;
+    }
+    .download-button{
+        margin: 10px 0px;
+        margin-right: 55px;
+    }
+    .footer-logo, .footer-nav, .footer-social{
+        width: 100%;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .footer-logo{
+        justify-content: center;
+    }
+}

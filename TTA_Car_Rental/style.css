@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* Home section styles */
+#home-section{
+    margin-bottom: 20px;
+}
+.home-container{
+    height: 100vh;
+    background-image: url(./image\ 1.png);
+    background-position: center;
+    color: #fff;
+}
+.home-container p{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 50px;
+    font-weight: 548;
+}
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+}
+.header-content-1{
+    width: 20%;
+}
+.header-content-2{
+    width: 60%;
+}
+.header-content-3{
+    width: 20%;
+}
+.header-content-3 button{
+    background-color: #000;
+    color: #fff;
+    padding:  3px 10px;
+    border: .5px solid white;
+    border-radius: 15px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: -50px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 1px rgb(0, 0, 0, 0.3);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.input p{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+.input input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.input button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+}
+.input .input-container{
+    position: relative;
+}
+.input .input-container input{
+    padding-left: 25px;
+}
+.input .input-container i{
+    left: 3%;
+    top: 26%;
+    position: absolute;
+}
+
+/* Multiple styling */
+#brand-section, 
+#body-type-section, 
+#collection-section, 
+#how-section, 
+#service-section, 
+#comment-section,
+#download-section, 
+footer,
+.collection-section-header-container,
+.how-section-header-container,
+.service-section-header-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.brand-section-container,
+ .how-section-container,
+ .body-type-section-container,
+ .service-section-container,
+ .collection-section-container,
+ .comment-section-container,
+ .download-section-container,
+ .footer-container{
+    width: 90vw;
+}
+
+/* Brand and Body styling */
+.brand-section-header, .body-type-section-header, .comment-section-header{
+    display: flex;
+}
+.brand-section-button, .body-type-section-button, .comment-section-buttons{
+    width: 89%;
+    display: flex;
+    justify-content: end;
+}
+.brand-section-button a, .body-type-section-button a{
+    text-decoration: none;
+    color: black;
+}
+.brand-container, .body-type-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brand-content, .body-type-content{
+    width: 15%;
+    height: 100px;
+    background-color: #e5e4e2;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Collection styling */
+#collection-section{
+    background-color: #e5e4e2;
+    padding-bottom: 40px;
+    margin-bottom: unset;
+}
+.collection-section-header,
+.how-section-header,
+.service-section-header{
+    width: 55%;
+    text-align: center;
+}
+
+.collection-section-header p, 
+.how-section-header p,
+.service-section-header p{
+    padding: 15px 0px;
+}
+.collection-section-header ul li{
+    display: inline;
+    padding: 10px 10px;
+}
+.collection-section-header ul li a{
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 7px 15px; 
+  border-radius: 30px; 
+}
+.collection-section-header ul li:first-of-type a{
+    background-color: #000;
+    color: #fff;
+}
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.collection-item{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.collection-item .img-container, .specs-container, .button-container{
+   display: flex;
+   justify-content: center; 
+   margin: 10px;
+}
+.collection-item img{
+    width: 100%;
+    height: auto;
+}
+.details-container{
+    margin: 10px;
+}
+.details-container h1{
+    padding: 5px 0px;
+}
+.details-container h1 sub{
+    font-weight: 100;
+    color: gray;
+}
+.specs-container, .button{
+    margin: 10px 0px;
+    padding-left: unset;
+}
+.specs-content{
+    width: 97%;
+    height: 55px;
+    background-color:#e5e4e2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+.spec{
+    text-align: center;
+}
+.button{
+    width: 95%;
+}
+.button button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    border: .5px solid black;
+    border-radius: 30px;
+}
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
+.see-all-button button{
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+
+}
+.collection-section-header h1,
+.how-section-header h1, 
+.service-section-header h1{
+    font-family: sans-serif;
+}
+
+/* How section styling */
+.how-container{
+    display: flex;
+    position: relative;
+}
+.how-container .how-content-empty{
+    width: 30%;
+}
+.how-content-steps{
+    position: absolute;
+    width: 40%;
+}
+.how-container .car-img{
+    width: 70%;
+    background-color: #F5F5F5;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border-radius: 10px;
+}
+.step-container{
+    border: 2px solid #F5F5F5;
+    background-color: white;
+    display: flex;
+    padding: 15px 5px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    justify-content: space-around;
+}
+.step-content{
+    margin: 10px 10px;
+}
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step-icon{
+    background-color: #F5F5F5;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.step-content h4{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+}
+
+/* Service Sections */
+#service-section{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0px;
+    margin-bottom: unset;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.service-item .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon-container .service-icon{
+    margin-bottom: 5px;
+}
+.service-item .service-content{
+    text-align: center;
+}
+.service-item .service-content h4{
+    padding: 10px 0px;
+}
+.service-item .service-content p{
+    padding: 10px;
+}
+
+/* comment section styling */
+.comment-section-buttons{
+    width: 75%;
+}
+.comment-section-buttons button{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.comment-section-buttons .comment-section-button-1{
+    background-color: #fff;
+    color: #e5e4e2;
+    border: 1px solid #e5e4e2;
+}
+.comment-section-buttons .comment-section-button-2{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid black;
+}
+.comment-content{
+    width: 90%;
+    margin: 10px 0px;
+}
+.comment-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment-owner-container{
+    display: flex;
+    margin: 30px 0px;
+}
+.comment-owner-container-content{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.comment-owner-container-content h4{
+    padding: 10px 0px;
+}
+
+/* download-section styling */
+#download-section{
+    background-color: #000;
+    color: #fff;
+    margin: unset;
+    padding: 20px 0px;
+}
+.download-section-container{
+    display: flex;
+}
+.download-section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-section-container .download-content{
+    width: 50%;
+    padding-left: 40px;
+}
+.download-section-container .download-description h2{
+    padding: 10px 0px;
+}
+.download-section-container .download-description p{
+    font-size: 15px;
+    padding: 10px 0px;
+    font-weight: 100;
+}
+.download-section-container .download-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-button{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+.download-button-icon{
+    padding: 10px 5px 10px 20px;
+}
+.download-button-text{
+    color: black;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.download-button-text p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.download-button-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-button-text a{
+    color: #000;
+}
+
+/* footer styling */
+footer{
+    margin: unset;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0px;
+    border: .2px solid gray;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+.footer-container{
+    display: flex;
+}
+.footer-logo{
+    display: flex;
+    width: 20%;
+    justify-content: start;
+}
+.footer-nav{
+    width: 60%;
+    text-align: center;
+}
+.footer-nav ul li, .footer-social ul li{
+    display: inline;
+    gap: 10px;
+}
+.footer-nav ul li a, .footer-social ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+}

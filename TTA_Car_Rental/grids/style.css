@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    column-gap: 10px;
+}
+.grid-item{
+    height: 100px;
+    background-color: #e5e4e2;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.item-1{
+    grid-column: 1/ span 6;
+}
